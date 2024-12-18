@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "BackgroundChangeExtension",
+  "version": "1.0.0",
+  "description": "Allows user to change the background color of the page.",
+  "icons": {
+    "32": "icons/icon32.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
